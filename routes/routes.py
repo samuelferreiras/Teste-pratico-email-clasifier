@@ -14,7 +14,7 @@ file_handler = FileHandler(
 
 def get_email_text_from_request(req) -> str | None:
     uploaded_file = req.files.get("file")
-    text_input = req.form.get("text")a
+    text_input = req.form.get("text")
 
     if uploaded_file and uploaded_file.filename:
         if not file_handler.is_extension_allowed(uploaded_file.filename):
