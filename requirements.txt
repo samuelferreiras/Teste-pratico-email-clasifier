@@ -1,0 +1,5 @@
+Flask==3.1.2
+gunicorn==21.2.0
+groq==1.0.0
+python-dotenv==1.2.1
+PyPDF2==3.0.1
